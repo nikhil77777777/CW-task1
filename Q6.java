@@ -12,7 +12,7 @@ public class Q6
 	}
 		public static  void main(String[] args)
 		{
-			int counter=0,i=2;
+			int counter=1,i=3;
 			while(true) 
 			{
 				if(isPrime(i))        //calling prime function to check whether a no is prime  or not.
@@ -25,7 +25,7 @@ public class Q6
 			    System.out.println(i);
 				break;
 				}
-				i++;
+				i= i + 2;
 		    }
 		}
  }
